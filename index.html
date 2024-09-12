@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>milestone5</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Unique  path and shareable link By Sidra Asfand</h1>
+  <form id="resumeForm">
+      <fieldset>
+        <legend>Personal Information</legend>
+      <label for ="username">System Generating URL:</label>
+      <input type="text" id="username" name="username" required><br>
+      
+      <label for="name"><b>Name:</b></label>
+        <input type="text" id="name"  name="name" placeholder="Enter your name"  required><br>
+        
+        <label for="lname"><b>LastName:</b></label>
+        <input type="text"  id="lname" name="lname" placeholder="Enter FullName"  required><br>
+       
+        <label for="email"><b>Email:</b></label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email"  required><br>
+
+        <label for="password"><b>Password:</b></label>
+        <input type="password"  id="password" name="password" placeholder="Enter your Password" maxlength="12"  required><br>
+
+        <label for="phone"><b>MobilePhone:</b></label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number"  required><br>
+
+        <label for="address"><b>Address:</b></label>
+        <input type="text" id="address"  name="address" placeholder="Enter Address"  required><br>
+
+      
+       <label for="profilePicture"><strong>Profile Picture:</strong></label>
+       
+        <input type="file" id="profilePicture" name="profilePicture"  accept="image/*" required>
+
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Education</legend>
+        <label for="education"><b>Education</b></label>
+        <textarea id="education" name="education" rows="4" placeholder="Enter some text  here" required></textarea><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Experience</legend>
+        <label for="experience"><b>Experience</b></label>
+        <textarea id="experience" name="experience" rows="4" placeholder="Enter some text  here" required></textarea><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Skills</legend>
+        <label for="skills"><b>Skills</b></label>
+        <textarea id="skills" name="skill" rows="4" placeholder="Enter some text  here" required></textarea><br>
+      </fieldset>
+
+  
+
+      
+      <button type="submit">Generate Resume</button>
+    
+  
+  </form>
+  
+<div id="resumeOutput">
+
+</div>
+  <script src="script.js" ></script>
+</body>
+</html>
